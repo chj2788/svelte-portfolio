@@ -1,13 +1,14 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from '$lib/images/svelte-logo.svg';
 	import github from '$lib/images/github.svg';
+	import linkedin from '$lib/images/linkedin.svg';
+	import laptop from '$lib/images/laptop.gif';
 </script>
 
 <header>
 	<div class="corner">
-		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
+		<a href="/">
+			<img src={laptop} alt="laptop"/>
 		</a>
 	</div>
 
@@ -17,13 +18,16 @@
 		</svg>
 		<ul>
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/">Home</a>
+				<a href="/">Welcome</a>
 			</li>
-			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about">About</a>
+			<li aria-current={$page.url.pathname === '/experience' ? 'page' : undefined}>
+				<a href="/experience">Experience</a>
 			</li>
-			<li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
-				<a href="/sverdle">Sverdle</a>
+			<li aria-current={$page.url.pathname === '/projects' ? 'page' : undefined}>
+				<a href="/projects">Projects</a>
+			</li>
+			<li aria-current={$page.url.pathname === '/contact' ? 'page' : undefined}>
+				<a href="/contact">Contact</a>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
@@ -32,8 +36,11 @@
 	</nav>
 
 	<div class="corner">
-		<a href="https://github.com/sveltejs/kit">
+		<a href="https://github.com/chj2788">
 			<img src={github} alt="GitHub" />
+		</a>
+		<a href="https://www.linkedin.com/in/hyunjin-alice-chang-0a91621a3/">
+			<img src={linkedin} alt="Linkedin" />
 		</a>
 	</div>
 </header>
@@ -42,10 +49,11 @@
 	header {
 		display: flex;
 		justify-content: space-between;
+		padding: 0 1em;
 	}
 
 	.corner {
-		width: 3em;
+		display: flex;
 		height: 3em;
 	}
 
@@ -55,6 +63,7 @@
 		justify-content: center;
 		width: 100%;
 		height: 100%;
+		margin: 0 1em;
 	}
 
 	.corner img {
@@ -116,11 +125,12 @@
 		padding: 0 0.5rem;
 		color: var(--color-text);
 		font-weight: 700;
-		font-size: 0.8rem;
+		font-size: 0.6rem;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
 		text-decoration: none;
 		transition: color 0.2s linear;
+		font-family: 'Press Start 2P', cursive;
 	}
 
 	a:hover {
