@@ -1,59 +1,56 @@
-<script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
-</script>
-
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>About</title>
+	<meta name="description" content="Welcome page" />
 </svelte:head>
 
-<section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
+<script lang="ts">
+  import { Canvas, InteractiveObject, OrbitControls, T } from '@threlte/core'
+  import Avatar from '../lib/Avatar.svelte'
+	
+</script>
 
-		to your new<br />SvelteKit app
-	</h1>
+<div class="about-wrapper">
+	<div class="text-column">
+		<div class="intro-text">Hi,</div>
+		<div class="intro-text">I am a </div>
+		<div class="intro-text">Software-</div>
+		<div class="intro-text">Engineer</div>
+		<p class="description">
+			I am a software engineer with a background in data science. Currently, I'm focusing on building a full-stack applications.
+		</p>
+	</div>
+	<div class="canvas-wrapper">
+		<Canvas size={{ width: 500, height: 500 }}>
+			<Avatar />
+		</Canvas>
+	</div>
+</div>
 
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
-</section>
 
 <style>
-	section {
+	.intro-text {
+		font-size: 4em;
+		color: white;
+		font-family: 'Syncopate', sans-serif;
+		width: 50%
+	}
+	.canvas-wrapper {
+    /* width: 50%;
+    height: auto; */
+  }
+
+	.about-wrapper {
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
+		width:100%;
 		justify-content: center;
 		align-items: center;
-		flex: 0.6;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
 		height: 100%;
-		top: 0;
-		display: block;
+	}
+
+	.description {
+		font-family: 'Press Start 2P', cursive;
+		color: lightgrey;
 	}
 </style>
+
