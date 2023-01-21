@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>About</title>
+	<title>Contact</title>
 	<meta name="description" content="Welcome page" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
