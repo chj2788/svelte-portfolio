@@ -11,6 +11,7 @@
 	<div class="projects-list">
 		<div class="description">
 			<h1>FashionAvenue</h1>
+			<p>December 2022 - January 2023</p>
 			<ul>
 				<li>Used Nest.js for backend to build the highly testable and maintainable server.</li>
 				<li>Maintained the seamless user experience by issuing access/refresh tokens and used JWT for authentication to securely transmit information between client and server.</li>
@@ -19,6 +20,7 @@
 		</div>
 		<div class="description">
 			<h1>MyChat</h1>
+			<p>February 2021 - May 2021</p>
 			<ul>
 				<li>Managed the global state with Context API and denormalized chat messages data for better performance.</li>
 				<li>Prevented anonymous users from gaining inappropriate access utilizing Facebook and Google authentication(OAuth) while connecting Firebase for real-time subscription.</li>
@@ -27,6 +29,7 @@
 		</div>
 		<div class="description">
 			<h1>SearchMovies</h1>
+			<p>January 2021 - April 2021</p>
 			<ul>
 				<li>Incorporated Redux hooks to architect highly scalable front-end state management and optimized
 					components using React hooks.</li>
@@ -62,6 +65,25 @@
 		color: lightgrey;
 		width: 30%;
 		margin: 0 1%;
+	}
+
+	.description p {
+		font-family: 'Raleway', sans-serif;
+		font-style: italic;
+		color: lightgrey;
+		text-align: center;
+		margin-bottom: 3em;
+	}
+
+	h1 {
+		font-weight: bold;
+		color: var(--color-theme-1);
+	}
+
+	li {
+		margin: 10px 0;
+		color: white;
+		line-height: 1.5em;
 	}
 </style>
 
