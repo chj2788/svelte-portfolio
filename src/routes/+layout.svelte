@@ -11,7 +11,7 @@
 	</main>
 
 	<footer>
-		<p>Contact me if interested</p>
+		<p>My name is Hyunjin(Alice) Chang - <a href="/contact">Contact me!</a></p>
 	</footer>
 </div>
 
@@ -29,8 +29,6 @@
 		flex-direction: column;
 		padding: 1rem;
 		width: 100%;
-		max-width: 64rem;
-		margin: 0 auto;
 		box-sizing: border-box;
 	}
 
@@ -40,6 +38,7 @@
 		justify-content: center;
 		align-items: center;
 		padding: 12px;
+		color: white;
 	}
 
 	@media (min-width: 480px) {
