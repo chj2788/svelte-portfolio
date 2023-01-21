@@ -36,10 +36,10 @@
 	</nav>
 
 	<div class="corner">
-		<a href="https://github.com/chj2788" target="_blank">
+		<a href="https://github.com/chj2788" target="_blank" rel="noreferrer">
 			<img src={github} alt="GitHub" />
 		</a>
-		<a href="https://www.linkedin.com/in/hyunjin-alice-chang-0a91621a3/" target="_blank">
+		<a href="https://www.linkedin.com/in/hyunjin-alice-chang-0a91621a3/" target="_blank" rel="noreferrer">
 			<img src={linkedin} alt="Linkedin" />
 		</a>
 	</div>
