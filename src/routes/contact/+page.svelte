@@ -12,12 +12,20 @@
 </script>
 
 <div class="about-wrapper">
-	<div class="text-column">
-		<div class="intro-text">Let's get connected</div>
-		<p class="description">
-			<a href="mailto:hyunjin.alice.chang@gmail.com">email: hyunjin.alice.chang@gmail.com</a>
-		</p>
-		<p class="description"><a href="tel:+5302200895">phone number: 530-220-0895</a></p>
+	<div class="intro-text">Let's get connected</div>
+	<p class="contact-info">
+		<a href="mailto:hyunjin.alice.chang@gmail.com">email: hyunjin.alice.chang@gmail.com</a> 
+	</p>
+	<div class="button-wrapper">
+		<button>Click to Copy</button>
+		<button>Email</button>
+	</div>
+	<p class="contact-info">
+		<a href="tel:+5302200895">phone number: 530-220-0895</a> 
+	</p> 
+	<div class="button-wrapper">
+		<button>Click to Copy</button>
+		<button>Call</button>
 	</div>
 </div>
 
@@ -32,14 +40,23 @@
 
 	.about-wrapper {
 		display: flex;
-		flex-direction: row;
-		width:100%;
-		margin: 5% 0;
+		flex-direction: column;
+		width: 50%;
+		margin: 5% 20% 5% 30%;
 	}
 
-	.description {
+	.contact-info {
 		font-family: 'Press Start 2P', cursive;
 		color: lightgrey;
+	}
+
+	.button-wrapper {
+		margin: 3px 0;
+		font-family: 'Press Start 2P', cursive;
+	}
+
+	button {
+		padding: 2% 5%;
 	}
 </style>
 
