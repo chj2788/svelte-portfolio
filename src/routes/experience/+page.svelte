@@ -11,6 +11,7 @@
 	<div class="experience-list">
 		<div class="description">
 			<h1>Web Developer Intern @UC Davis</h1>
+			<p>April 2022 - December 2022</p>
 			<ul>
 				<li>Developed continuous improvement projects and enhancements for CEED and TherMOOstat using MERN stack with GraphQL and Prisma as a full-stack developer.</li>
 				<li>Identified root causes of software bugs, solved underlying problems, and refactored legacy codes to enhance productivity and readability.</li>
@@ -19,6 +20,7 @@
 		</div>
 		<div class="description">
 			<h1>Software Engineer Intern @Bucketplace</h1>
+			<p>June 2021 - December 2021</p>
 			<ul>
 				<li>Created promotion pages from scratch using React, Next, and Nest(Node) as a full-stack developer and achieved a 25% increase in GMV, 13.77% increase in user stickiness, and 6.10% increase in pur- chase conversion rate.</li>
 				<li>Optimized server calls to handle large traffic by caching the API calls, optimizing DB queries and using appropriate data structures and techniques.</li>
@@ -27,7 +29,8 @@
 			</ul>
 		</div>
 		<div class="description">
-			<h1>Data Intern @Hyosung ITX</h1>
+			<h1>Data Intern <br> @Hyosung ITX</h1>
+			<p>August 2020 - December 2020</p>
 			<ul>
 				<li>Optimized the data maintenance tool by automating the data inspection process with Python andachieved higher data accuracy from 91% to 99% and a 2400% faster working time.</li>
 				<li>Provided data maintenance support for the public data portal, ’www.data.go.kr’.</li>
@@ -53,7 +56,7 @@
 		display: flex;
 		flex-direction: column;
 		width:94%;
-		margin: 5% 3%;
+		margin: 5% 3% 0 3%;
 	}
 
 	.description {
@@ -61,6 +64,25 @@
 		color: lightgrey;
 		width: 30%;
 		margin: 0 1%;
+	}
+
+	.description p {
+		font-family: 'Raleway', sans-serif;
+		font-style: italic;
+		color: lightgrey;
+		text-align: center;
+		margin-bottom: 3em;
+	}
+
+	h1 {
+		font-weight: bold;
+		color: var(--color-theme-1);
+	}
+
+	li {
+		margin: 10px 0;
+		color: white;
+		line-height: 1.5em;
 	}
 </style>
 
