@@ -60,11 +60,13 @@
 	.button-wrapper {
 		margin: 3px 0;
 		font-family: 'Press Start 2P', cursive;
+		font-size: 13px;
 	}
 
 	button {
 		padding: 2% 5%;
 		border-radius: 15px;
+		width: 33%
 	}
 
 	button:hover {

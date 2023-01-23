@@ -91,6 +91,7 @@
 		row-gap: 1em;
 		margin: 2em 0;
 		font-family: 'Press Start 2P', cursive;
+		font-size: 13px;
 	}
 
 	button {
