@@ -4,7 +4,6 @@
 		DirectionalLight,
 		OrbitControls,
 		PerspectiveCamera,
-		Mesh
 	} from '@threlte/core'
 	import { DEG2RAD } from 'three/src/math/MathUtils'
   import { GLTF, useGltfAnimations } from '@threlte/extras'
@@ -14,7 +13,7 @@
 	})
 </script>
 
-<PerspectiveCamera position={{ x: 1, y: 1.7, z: 1.3 }} near={0.1} far={100}>
+<PerspectiveCamera position={{ x: 0, y: 1.7, z: 1.5 }} near={0.1} far={100}>
 	<OrbitControls
 		maxPolarAngle={DEG2RAD * 80}
 		enableRotate={true}
