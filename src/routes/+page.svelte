@@ -21,7 +21,7 @@
 		<span class="description line__3">building full-stack applications.</span>
 	</div>
 	<div class="canvas-wrapper">
-		<Canvas size={{ width: 400, height: 500 }}>
+		<Canvas size={{ width: 500, height: 500 }}>
 			<Avatar />
 		</Canvas>
 	</div>

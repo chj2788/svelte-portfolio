@@ -18,7 +18,7 @@
 				<li>Verified the user with customized authentication guards by extracting and validating the token.</li>
 			</ul>
 			<div class="button-wrapper">
-				<button on:click|preventDefault={()=>window.open("https://github.com/chj2788/fashionAvenue", '_blank')}>Github</button>
+				<button on:click|preventDefault={()=>window.open("https://gitfront.io/r/user-9723209/LEuKHpF8ipAV/fashionAvenue/", '_blank')}>Github</button>
 			</div>
 		</div>
 		<div class="description">
