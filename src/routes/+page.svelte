@@ -45,7 +45,7 @@
 		width: 80%;
 		justify-content: center;
 		align-items: center;
-		margin: 8% 10%;
+		margin: 5% 10% 0 10%;
 	}
 
 	.description {
