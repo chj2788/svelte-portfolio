@@ -1,7 +1,9 @@
 <script>
 	import Header from './Header.svelte';
 	import './styles.css';
+
 </script>
+
 
 <div class="app">
 	<Header />
@@ -39,6 +41,8 @@
 		align-items: center;
 		padding: 12px;
 		color: white;
+		font-family: 'Press Start 2P', cursive;
+		font-size: 12px;
 	}
 
 	@media (min-width: 480px) {

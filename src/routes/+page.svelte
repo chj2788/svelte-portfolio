@@ -4,9 +4,8 @@
 </svelte:head>
 
 <script lang="ts">
-  import { Canvas, InteractiveObject, OrbitControls, T } from '@threlte/core'
-  import Avatar from '../lib/Avatar.svelte'
-	
+  import { Canvas } from '@threlte/core'
+  import Avatar from '../lib/Avatar.svelte'	
 </script>
 
 <div class="about-wrapper">
@@ -22,7 +21,7 @@
 		<span class="description line__3">building full-stack applications.</span>
 	</div>
 	<div class="canvas-wrapper">
-		<Canvas size={{ width: 500, height: 500 }}>
+		<Canvas size={{ width: 400, height: 500 }}>
 			<Avatar />
 		</Canvas>
 	</div>
@@ -43,10 +42,10 @@
 
 	.about-wrapper {
 		display: flex;
-		width:90%;
+		width: 80%;
 		justify-content: center;
 		align-items: center;
-		margin: 8% 5%;
+		margin: 8% 10%;
 	}
 
 	.description {
