@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Hyunjin Chang</title>
+	<title>Hyunjin Alice Chang</title>
 	<meta name="description" content="Welcome page" />
 </svelte:head>
 
