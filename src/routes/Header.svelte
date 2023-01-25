@@ -79,7 +79,7 @@
 		margin: 0 1em;
 	}
 
-	.corner img {
+	img {
 		width: 2em;
 		height: 2em;
 		object-fit: contain;
@@ -153,4 +153,21 @@
 	svg:hover {
 		fill: var(--color-theme-1);
 	}
+
+	@media only screen and (max-width: 1200px) {
+		.corner {
+			display: none;
+		}
+
+		header {
+			justify-content: center;
+		}
+
+		li {
+			font-size: 1em;
+		}
+
+	}
+
+
 </style>
