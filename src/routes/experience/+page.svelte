@@ -65,8 +65,8 @@
 	.experience-wrapper {
 		display: flex;
 		flex-direction: column;
-		width:94%;
-		margin: 2% 3% 0 3%;
+		width: 100%;
+		height: 80vh;
 	}
 
 	.description {
@@ -114,6 +114,29 @@
 		margin: 10px 0;
 		color: white;
 		line-height: 1.5em;
+	}
+
+	@media only screen and (max-width: 1200px) {
+		.experience-list {
+			flex-direction: column;
+		}
+
+		.description {
+			width: 100%;
+		}
+
+		.intro-text {
+			font-size: 3em;
+			color: white;
+			font-family: 'Syncopate', sans-serif;
+			text-align: center;
+			text-decoration: underline;
+			margin-top: 1em;
+		}
+
+		.experience-wrapper {
+			margin: 7% 3% 0 3%;
+		}
 	}
 </style>
 
