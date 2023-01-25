@@ -6,7 +6,9 @@
 
 
 <div class="app">
-	<Header />
+	<div class="sticky-header">
+		<Header />
+	</div>
 
 	<main>
 		<slot />
@@ -21,17 +23,21 @@
 	.app {
 		display: flex;
 		flex-direction: column;
-		min-height: 100vh;
-		background-color: #18191A;
+		position: relative;
+	}
+
+	.sticky-header {
+		position: fixed;
+		width: 100%;
 	}
 
 	main {
 		flex: 1;
 		display: flex;
 		flex-direction: column;
-		padding: 1rem;
 		width: 100%;
 		box-sizing: border-box;
+		margin-top: 5%;
 	}
 
 	footer {
