@@ -14,11 +14,12 @@
 		<div class="intro-text">I am a </div>
 		<div class="intro-text">Software-</div>
 		<div class="intro-text">Engineer</div>
-		<span class="description line__1">
+		<span class="description line__1 desktop">
 			I am a software engineer with a background
 		</span>
-		<span class="description line__2">in data science. Currently, I'm focusing on</span>
-		<span class="description line__3">building full-stack applications.</span>
+		<span class="description line__2 desktop">in data science. Currently, I'm focusing on</span>
+		<span class="description line__3 desktop">building full-stack applications.</span>
+		<span class="mobile">I am a software engineer with a background in data science. Currently, I'm focusing on building full-stack applications.</span>
 	</div>
 	<div class="canvas-wrapper">
 		<Canvas size={{ width: 500, height: 500 }}>
@@ -42,16 +43,16 @@
 
 	.about-wrapper {
 		display: flex;
-		width: 80%;
+		width: 100%;
 		justify-content: center;
 		align-items: center;
-		margin: 5% 10% 0 10%;
+		height: 80vh;
 	}
 
 	.description {
 		font-family: 'Press Start 2P', cursive;
 		color: lightgrey;
-		margin: 1% 0;
+		line-height: 1.8;
 		white-space: nowrap;
 		overflow: hidden;
 	}
@@ -82,6 +83,14 @@
 			animated-cursor 900ms steps(30, end) infinite;
 		-webkit-animation-delay: 7s;
 		animation-delay: 12s;
+	}
+
+	.desktop {
+		display: block;
+	}
+
+	.mobile {
+		display: none;
 	}
 
 	@keyframes animated-cursor {
@@ -117,6 +126,32 @@
 		}
 		to {
 			width: 33rem;
+		}
+	}
+
+	@media only screen and (max-width: 1200px) {
+		.about-wrapper {
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.desktop {
+			display: none;
+		}
+
+		.mobile {
+			display: block;
+			font-size: 13px;
+			font-family: 'Press Start 2P', cursive;
+			color: lightgrey;
+			overflow: auto;
+			line-height: 1.8;
+		}
+		.intro-text {
+			font-size: 3em;
 		}
 	}
 
