@@ -14,20 +14,22 @@
 </script>
 
 <div class="contact-wrapper">
-	<div class="intro-text">Let's <br>get <br>connected</div>
-	<p class="contact-info">
-		email: hyunjin.alice.chang@gmail.com
-	</p>
-	<div class="button-wrapper">
-		<button on:click|preventDefault={()=>copyToClipboard("hyunjin.alice.chang@gmail.com")}>Click to Copy</button>
-		<button on:click|preventDefault={()=>window.location.href="mailto:hyunjin.alice.chang@gmail.com"}>Email</button>
-	</div>
-	<p class="contact-info">
-		phone number: 530-220-0895
-	</p> 
-	<div class="button-wrapper">
-		<button on:click|preventDefault={()=>copyToClipboard("530-220-0895")}>Click to Copy</button>
-		<button on:click|preventDefault={()=>window.location.href="tel:530-220-0895"}>Call</button>
+	<div>
+		<div class="intro-text">Let's <br>get <br>connected</div>
+		<p class="contact-info">
+			email: hyunjin.alice.chang@gmail.com
+		</p>
+		<div class="button-wrapper">
+			<button on:click|preventDefault={()=>copyToClipboard("hyunjin.alice.chang@gmail.com")}>Click to Copy</button>
+			<button on:click|preventDefault={()=>window.location.href="mailto:hyunjin.alice.chang@gmail.com"}>Email</button>
+		</div>
+		<p class="contact-info">
+			phone number: 530-220-0895
+		</p> 
+		<div class="button-wrapper">
+			<button on:click|preventDefault={()=>copyToClipboard("530-220-0895")}>Click to Copy</button>
+			<button on:click|preventDefault={()=>window.location.href="tel:530-220-0895"}>Call</button>
+		</div>
 	</div>
 </div>
 
@@ -48,8 +50,10 @@
 	.contact-wrapper {
 		display: flex;
 		flex-direction: column;
-		width: 50%;
-		margin: 10% 20% 2% 30%;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		height: 80vh;
 	}
 
 	.contact-info {
@@ -76,6 +80,26 @@
 	@keyframes shine {
 		from { -webkit-mask-position: 150%; }
 		to { -webkit-mask-position: -50%; }
+	}
+
+	@media only screen and (max-width: 1200px) {
+		.intro-text {
+			font-size: 3em;
+			-webkit-mask-image: none;
+			animation: none;
+		}
+
+		.contact-wrapper {
+			display: flex;
+		}
+
+		.contact-info {
+			font-size: 13px;
+		}
+
+		.button-wrapper {
+			width: 100%;
+		}
 	}
 
 </style>
