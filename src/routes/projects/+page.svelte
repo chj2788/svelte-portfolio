@@ -45,6 +45,7 @@
 			</ul>
 			<div class="button-wrapper">
 				<button on:click|preventDefault={()=>window.open("https://github.com/chj2788/searchMovies", '_blank')}>Github</button>
+				<button on:click|preventDefault={()=>window.open("https://chj2788.github.io/SearchMovies/#/", '_blank')}>Demo</button>
 			</div>
 		</div>
 	</div>
@@ -93,8 +94,7 @@
 	.projects-wrapper {
 		display: flex;
 		flex-direction: column;
-		width:94%;
-		margin: 2% 3%;
+		width: 100%;
 	}
 
 	.description {
@@ -142,6 +142,25 @@
 		margin: 10px 0;
 		color: white;
 		line-height: 1.5em;
+	}
+
+	@media only screen and (max-width: 1200px) {
+		.projects-list {
+			flex-direction: column;
+		}
+
+		.description {
+			width: 100%;
+		}
+
+		.intro-text {
+			font-size: 3em;
+			color: white;
+			font-family: 'Syncopate', sans-serif;
+			text-align: center;
+			text-decoration: underline;
+			margin-top: 1em;
+		}
 	}
 </style>
 
