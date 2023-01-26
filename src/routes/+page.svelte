@@ -22,7 +22,7 @@
 		<span class="mobile">I am a software engineer with a background in data science. Currently, I'm focusing on building full-stack applications.</span>
 	</div>
 	<div class="canvas-wrapper desktop">
-		<Canvas size={{ width: 500, height: 500 }}>
+		<Canvas size={{ width: 400, height: 400 }}>
 			<Avatar />
 		</Canvas>
 	</div>
@@ -41,10 +41,10 @@
 		font-family: 'Syncopate', sans-serif;
 		width: 50%
 	}
-	/* .canvas-wrapper {
-    width: 50%;
-    height: auto;
-  } */
+
+	.text-column {
+		margin: 0;
+	}
 
 	.about-wrapper {
 		display: flex;
