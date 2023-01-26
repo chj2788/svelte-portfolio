@@ -21,8 +21,13 @@
 		<span class="description line__3 desktop">building full-stack applications.</span>
 		<span class="mobile">I am a software engineer with a background in data science. Currently, I'm focusing on building full-stack applications.</span>
 	</div>
-	<div class="canvas-wrapper">
+	<div class="canvas-wrapper desktop">
 		<Canvas size={{ width: 500, height: 500 }}>
+			<Avatar />
+		</Canvas>
+	</div>
+	<div class="canvas-wrapper mobile">
+		<Canvas size={{ width: 380, height: 400 }}>
 			<Avatar />
 		</Canvas>
 	</div>
@@ -133,9 +138,8 @@
 		.about-wrapper {
 			display: flex;
 			flex-direction: column;
-			width: 100%;
-			justify-content: center;
-			align-items: center;
+			width: 80%;
+			padding: 0 10%;
 		}
 
 		.desktop {
@@ -152,6 +156,31 @@
 		}
 		.intro-text {
 			font-size: 3em;
+		}
+	}
+
+	@media only screen and (max-width: 500px) {
+		.about-wrapper {
+			display: flex;
+			flex-direction: column;
+			width: 80%;
+			padding: 0 10%;
+		}
+
+		.desktop {
+			display: none;
+		}
+
+		.mobile {
+			display: block;
+			font-size: 10px;
+			font-family: 'Press Start 2P', cursive;
+			color: lightgrey;
+			overflow: auto;
+			line-height: 1.8;
+		}
+		.intro-text {
+			font-size: 2.5em;
 		}
 	}
 
