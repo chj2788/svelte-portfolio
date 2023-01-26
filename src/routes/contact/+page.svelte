@@ -70,7 +70,7 @@
 	button {
 		padding: 2% 5%;
 		border-radius: 15px;
-		width: 33%
+		width: 45%;
 	}
 
 	button:hover {
@@ -99,6 +99,20 @@
 
 		.button-wrapper {
 			width: 100%;
+		}
+	}
+
+	@media only screen and (max-width: 500px) {
+		.intro-text {
+			font-size: 2.5em;
+		}
+
+		.contact-info {
+			font-size: 10px;
+		}
+
+		.button-wrapper {
+			font-size: 10px;
 		}
 	}
 
