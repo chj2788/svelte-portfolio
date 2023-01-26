@@ -6,9 +6,7 @@
 
 
 <div class="app">
-	<div class="sticky-header">
-		<Header />
-	</div>
+	<Header />
 
 	<main>
 		<slot />
@@ -26,11 +24,6 @@
 		position: relative;
 	}
 
-	.sticky-header {
-		position: fixed;
-		width: 100%;
-	}
-
 	main {
 		flex: 1;
 		display: flex;
@@ -41,19 +34,20 @@
 	}
 
 	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+		width: 100%;
+		text-align: center;
 		padding: 12px;
 		color: white;
 		font-family: 'Press Start 2P', cursive;
 		font-size: 12px;
 	}
 
-	@media (min-width: 480px) {
+	@media only screen and (max-width: 500px) {
 		footer {
-			padding: 12px 0;
+			font-size: 10px;
+			width: 80%;
+			overflow: auto;
+			padding: 10%;
 		}
 	}
 </style>
