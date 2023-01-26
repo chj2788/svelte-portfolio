@@ -65,8 +65,9 @@
 	.experience-wrapper {
 		display: flex;
 		flex-direction: column;
-		width: 100%;
-		height: 80vh;
+		width: 90%;
+		min-height: 80vh;
+		margin: 0 5%;
 	}
 
 	.description {
@@ -110,6 +111,10 @@
 		font-size: 2em
 	}
 
+	ul {
+		padding-left: 1em;
+	}
+
 	li {
 		margin: 10px 0;
 		color: white;
@@ -131,11 +136,27 @@
 			font-family: 'Syncopate', sans-serif;
 			text-align: center;
 			text-decoration: underline;
-			margin-top: 1em;
+		}
+	}
+
+	@media only screen and (max-width: 500px) {
+		.experience-wrapper {
+			display: flex;
+			flex-direction: column;
+			width: 90%;
+			padding: 0 5%;
+			margin: 0%;
+		}
+		.intro-text {
+			font-size: 2.5em;
 		}
 
-		.experience-wrapper {
-			margin: 7% 3% 0 3%;
+		h1 {
+			font-size: 1.5rem;
+		}
+
+		.button-wrapper {
+			font-size: 10px;
 		}
 	}
 </style>
