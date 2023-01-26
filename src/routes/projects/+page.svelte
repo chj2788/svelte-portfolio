@@ -94,14 +94,24 @@
 	.projects-wrapper {
 		display: flex;
 		flex-direction: column;
-		width: 100%;
+		width: 90%;
+		min-height: 80vh;
+		margin: 0 5%;
 	}
 
 	.description {
 		font-family: 'Raleway', sans-serif;
 		color: lightgrey;
-		width: 30%;
+		width: 32%;
 		margin: 0 1%;
+	}
+
+	.description p {
+		font-family: 'Raleway', sans-serif;
+		font-style: italic;
+		color: lightgrey;
+		text-align: center;
+		margin-bottom: 3em;
 	}
 
 	.button-wrapper {
@@ -124,18 +134,14 @@
 		background-color: var(--color-theme-1);
 	}
 
-	.description p {
-		font-family: 'Raleway', sans-serif;
-		font-style: italic;
-		color: lightgrey;
-		text-align: center;
-		margin-bottom: 3em;
-	}
-
 	h1 {
 		font-weight: bold;
 		color: var(--color-theme-1);
 		font-size: 2em
+	}
+
+	ul {
+		padding-left: 1em;
 	}
 
 	li {
@@ -159,7 +165,27 @@
 			font-family: 'Syncopate', sans-serif;
 			text-align: center;
 			text-decoration: underline;
-			margin-top: 1em;
+		}
+	}
+
+	@media only screen and (max-width: 500px) {
+		.projects-wrapper {
+			display: flex;
+			flex-direction: column;
+			width: 90%;
+			padding: 0 5%;
+			margin: 0%
+		}
+		.intro-text {
+			font-size: 2.5em;
+		}
+
+		h1 {
+			font-size: 1.5rem;
+		}
+
+		.button-wrapper {
+			font-size: 10px;
 		}
 	}
 </style>
