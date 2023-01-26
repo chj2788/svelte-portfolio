@@ -62,7 +62,8 @@
 	header {
 		display: flex;
 		justify-content: space-between;
-		padding: 0 1em;
+		width: 100%;
+		max-width: 100vw;
 	}
 
 	.corner {
@@ -146,15 +147,19 @@
 		font-family: 'Press Start 2P', cursive;
 	}
 
-	svg {
+	nav a:hover {
+		color: var(--color-theme-1);
+	}
+
+	.corner svg {
 		fill: white;
 	}
 
-	svg:hover {
+	.corner svg:hover {
 		fill: var(--color-theme-1);
 	}
 
-	@media only screen and (max-width: 1200px) {
+	@media only screen and (max-width: 800px) {
 		.corner {
 			display: none;
 		}
@@ -163,11 +168,13 @@
 			justify-content: center;
 		}
 
-		li {
-			font-size: 1em;
-		}
-
 	}
 
+	@media only screen and (max-width: 500px) {
+		nav a {
+			font-size: 0.45rem;
+			padding: 0 0.4rem;
+		}
+	}
 
 </style>
