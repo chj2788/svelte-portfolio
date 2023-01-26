@@ -13,7 +13,7 @@
 			<h1>FashionAvenue</h1>
 			<p>December 2022 - January 2023</p>
 			<ul>
-				<li>Used Nest.js for backend to build the highly testable and maintainable server.</li>
+				<li>Used Nest.js to build the highly testable and scalable server and achieved higher effiency with custom decorators and middlewares.</li>
 				<li>Maintained the seamless user experience by issuing access/refresh tokens and used JWT for authentication to securely transmit information between client and server.</li>
 				<li>Verified the user with customized authentication guards by extracting and validating the token.</li>
 			</ul>
@@ -55,7 +55,7 @@
 			<p>December 2022 - January 2023</p>
 			<ul>
 				<li>Incorporated Redux to architect a highly scalable front-end state management and fetched real-time weather data from the external API.</li>
-				<li>Implement a fancy glassmorhism UI with css and maintained highly readable and scalable css using Styled Components.</li>
+				<li>Implement a fancy glassmorhism UI with pure css and maintained highly readable and scalable css codes using Styled Components.</li>
 			</ul>
 			<div class="button-wrapper">
 				<button on:click|preventDefault={()=>window.open("https://github.com/chj2788/glassyweather", '_blank')}>Github</button>
@@ -69,6 +69,7 @@
 				<li>Used Svelte with typescript for the best performance.</li>
 				<li>Incorporated Three.js to display customized 3d animated avatar on the welcome page.</li>
 				<li>Implement a fancy web design and animations with highly scalable css stylings.</li>
+				<li>Fully responsive design to to allow the website content to flow freely across all screen resolutions and sizes</li>
 			</ul>
 			<div class="button-wrapper">
 				<button on:click|preventDefault={()=>window.open("https://github.com/chj2788/svelte-portfolio", '_blank')}>Github</button>
