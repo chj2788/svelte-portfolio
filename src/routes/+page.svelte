@@ -46,7 +46,7 @@
 		width: 100%;
 		justify-content: center;
 		align-items: center;
-		height: 80vh;
+		height: 83vh;
 	}
 
 	.description {

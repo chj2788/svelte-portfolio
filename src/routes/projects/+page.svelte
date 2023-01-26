@@ -96,7 +96,7 @@
 		display: flex;
 		flex-direction: column;
 		width: 90%;
-		min-height: 80vh;
+		min-height: 83vh;
 		margin: 0 5%;
 	}
 

@@ -30,7 +30,7 @@
 		flex-direction: column;
 		width: 100%;
 		box-sizing: border-box;
-		margin-top: 5%;
+		margin-top: 2%;
 	}
 
 	footer {
@@ -48,6 +48,10 @@
 			width: 80%;
 			overflow: auto;
 			padding: 10%;
+		}
+
+		main {
+			margin-top: 5%;
 		}
 	}
 </style>

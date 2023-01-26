@@ -53,7 +53,7 @@
 		width: 100%;
 		justify-content: center;
 		align-items: center;
-		height: 80vh;
+		min-height: 83vh;
 	}
 
 	.contact-info {
@@ -108,7 +108,7 @@
 		}
 
 		.contact-info {
-			font-size: 10px;
+			font-size: 9px;
 		}
 
 		.button-wrapper {
