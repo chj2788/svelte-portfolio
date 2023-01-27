@@ -69,7 +69,7 @@
 				<li>Used Svelte with typescript for the best performance.</li>
 				<li>Incorporated Three.js to display customized 3d animated avatar on the welcome page.</li>
 				<li>Implement a fancy web design and animations with highly scalable css stylings.</li>
-				<li>Fully responsive design to to allow the website content to flow freely across all screen resolutions and sizes</li>
+				<li>Allowed the website content to flow freely across all screen resolutions and sizes</li>
 			</ul>
 			<div class="button-wrapper">
 				<button on:click|preventDefault={()=>window.open("https://github.com/chj2788/svelte-portfolio", '_blank')}>Github</button>
