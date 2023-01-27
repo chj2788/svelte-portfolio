@@ -17,18 +17,34 @@
 	<div>
 		<div class="intro-text">Let's <br>get <br>connected</div>
 		<p class="contact-info">
-			email: hyunjin.alice.chang@gmail.com
+			Email: hyunjin.alice.chang@gmail.com
 		</p>
 		<div class="button-wrapper">
 			<button on:click|preventDefault={()=>copyToClipboard("hyunjin.alice.chang@gmail.com")}>Click to Copy</button>
 			<button on:click|preventDefault={()=>window.location.href="mailto:hyunjin.alice.chang@gmail.com"}>Email</button>
 		</div>
 		<p class="contact-info">
-			phone number: 530-220-0895
+			Phone Number: 530-220-0895
 		</p> 
 		<div class="button-wrapper">
 			<button on:click|preventDefault={()=>copyToClipboard("530-220-0895")}>Click to Copy</button>
 			<button on:click|preventDefault={()=>window.location.href="tel:530-220-0895"}>Call</button>
+		</div>
+		<p class="contact-info">
+			Linkedin
+		</p> 
+		<div class="button-wrapper">
+			<button class="single-button" on:click|preventDefault={()=>window.open("https://www.linkedin.com/in/hyunjin-alice-chang-0a91621a3/", '_blank')}>
+				Click to see my Linkedin profile
+			</button>
+		</div>
+		<p class="contact-info">
+			Github
+		</p> 
+		<div class="button-wrapper">
+			<button class="single-button" on:click|preventDefault={()=>window.open("https://github.com/chj2788", '_blank')}>
+				Click to see my Github profile
+			</button>
 		</div>
 	</div>
 </div>
@@ -71,6 +87,10 @@
 		padding: 2% 5%;
 		border-radius: 15px;
 		width: 45%;
+	}
+
+	.single-button {
+		width: 93%;
 	}
 
 	button:hover {
