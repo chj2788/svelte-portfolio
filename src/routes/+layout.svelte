@@ -34,9 +34,9 @@
 	}
 
 	footer {
-		width: 90%;
+		width: 94%;
 		text-align: center;
-		padding: 5%;
+		padding: 2% 3%;
 		color: white;
 		font-family: 'Press Start 2P', cursive;
 		font-size: 12px;

@@ -69,7 +69,7 @@
 		width: 100%;
 		justify-content: center;
 		align-items: center;
-		min-height: 83vh;
+		min-height: 78vh;
 	}
 
 	.contact-info {
@@ -105,8 +105,6 @@
 	@media only screen and (max-width: 1200px) {
 		.intro-text {
 			font-size: 3em;
-			-webkit-mask-image: none;
-			animation: none;
 		}
 
 		.contact-wrapper {
@@ -119,6 +117,7 @@
 
 		.button-wrapper {
 			width: 100%;
+			font-size: 10px;
 		}
 	}
 
@@ -129,10 +128,6 @@
 
 		.contact-info {
 			font-size: 9px;
-		}
-
-		.button-wrapper {
-			font-size: 10px;
 		}
 	}
 
