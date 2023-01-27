@@ -34,7 +34,7 @@
 		font-size: 4em;
 		color: white;
 		font-family: 'Syncopate', sans-serif;
-		width: 50%
+		width: 50%;
 	}
 
 	.text-column {
@@ -46,7 +46,8 @@
 		width: 100%;
 		justify-content: center;
 		align-items: center;
-		height: 78vh;
+		min-height: 78vh;
+		height: 100%;
 	}
 
 	.description {
