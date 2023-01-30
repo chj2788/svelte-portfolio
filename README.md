@@ -1,3 +1,23 @@
+# Svelte Portfolio
+Hi! My name is Hyunjin Chang.
+You can explore my resume on Linkedin.
+
+## Tech Stack
+- Svelte
+- Typescript
+- Threlte(based on Three.js)
+
+## Features
+- Fully responsive web. Available on mobile, tablet and desktop.
+- Typewriting css effect and animated 3d avatar on the welcome page.
+- Navigation bar to explore pages.(Welcome, Experience, Projects, Contact).
+- Email and Call available by clicking buttons on the contact page.(Copy to clipboard function is also available)
+
+## Additional Information
+- My avatar was created on ready player me and animated on Mixamo.
+
+---------------
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
