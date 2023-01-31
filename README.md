@@ -5,6 +5,10 @@ You can explore my resume on [Linkedin](https://www.linkedin.com/in/hyunjin-alic
 ## Demo
 Deployed with Netlify. [Click to see my portfolio!](https://hyunjin-alice-chang-portfolio.netlify.app/)
 
+## Preview
+https://user-images.githubusercontent.com/62086687/215703116-f9e6edff-2f04-4c87-9e88-6ef950a4dc63.mov
+
+
 ## Project Description
 - Used Svelte with typescript for the best performance.
 - Incorporated Three.js to display customized 3d animated avatar on the welcome page.
