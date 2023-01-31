@@ -1,6 +1,6 @@
 # Svelte Portfolio
 Hi! My name is Hyunjin Chang.
-You can explore my resume on Linkedin.
+You can explore my resume on [Linkedin](https://www.linkedin.com/in/hyunjin-alice-chang-0a91621a3/).
 
 ## Demo
 Deployed with Netlify. [Click to see my portfolio!](https://hyunjin-alice-chang-portfolio.netlify.app/)
