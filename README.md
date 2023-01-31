@@ -2,10 +2,14 @@
 Hi! My name is Hyunjin Chang.
 You can explore my resume on Linkedin.
 
-## Tech Stack
-- Svelte
-- Typescript
-- Threlte(based on Three.js)
+## Demo
+Deployed with Netlify. [Click to see my portfolio!](https://hyunjin-alice-chang-portfolio.netlify.app/)
+
+## Project Description
+- Used Svelte with typescript for the best performance.
+- Incorporated Three.js to display customized 3d animated avatar on the welcome page.
+- Implement a fancy web design and animations with highly scalable css stylings.
+- Allowed the website content to flow freely across all screen resolutions and sizes
 
 ## Features
 - Fully responsive web. Available on mobile, tablet and desktop.
@@ -14,7 +18,7 @@ You can explore my resume on Linkedin.
 - Email and Call available by clicking buttons on the contact page.(Copy to clipboard function is also available)
 
 ## Additional Information
-- My avatar was created on ready player me and animated on Mixamo.
+- My avatar was created on [ready player me](https://readyplayer.me/) and animated on [Mixamo](https://www.mixamo.com/#/).
 
 ---------------
 
