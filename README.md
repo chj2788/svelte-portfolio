@@ -18,7 +18,7 @@ Deployed with Netlify. [Click to see my portfolio!](https://hyunjin-alice-chang-
 - Email and Call available by clicking buttons on the contact page.(Copy to clipboard function is also available)
 
 ## Additional Information
-- My avatar was created on [ready player me](https://readyplayer.me/) and animated on [Mixamo](https://www.mixamo.com/#/).
+- My avatar was created on [Ready Player Me](https://readyplayer.me/) and animated on [Mixamo](https://www.mixamo.com/#/).
 
 ---------------
 
