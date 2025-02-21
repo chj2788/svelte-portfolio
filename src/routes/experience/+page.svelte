@@ -1,54 +1,131 @@
+<script lang="ts">
+</script>
+
 <svelte:head>
 	<title>Experience</title>
 	<meta name="description" content="Experience page" />
 </svelte:head>
-
-<script lang="ts">
-	
-</script>
 <div class="experience-wrapper">
-	<div class="intro-text">Internship Experience</div>
+	<div class="intro-text">Experience</div>
 	<div class="experience-list">
 		<div class="description">
-			<h1>Web Developer Intern <br>@UC Davis</h1>
+			<h1>Full Stack Engineer <br />@Humana</h1>
+			<p>May 2023 - Current</p>
+			<ul>
+				<li>
+					Constructed key solutions for the <a
+						class="link-text"
+						href="https://docushare-web.apps.external.pioneer.humana.com/Marketing/docushare-app?file=4650971"
+						target="_blank">Population Insight Compass</a
+					> project, developing and maintaining scalable web applications with Angular and Java, creating
+					user-friendly interfaces, and ensuring reliability with over 95% test coverage.
+				</li>
+				<li>
+					Optimized complex SQL queries to enhance data retrieval efficiency, streamlining
+					patient-specific mea- sure reviews and cut query execution time from over 10 minutes to 30
+					seconds for the analytics team.
+				</li>
+				<li>
+					Designed and implemented an ADF workflow to automate data processing and developed
+					efficient data aggregation pipeline using Scala and Spark for performance and scalability.
+				</li>
+			</ul>
+			<div class="button-wrapper">
+				<button
+					on:click|preventDefault={() =>
+						window.open(
+							'https://docushare-web.apps.external.pioneer.humana.com/Marketing/docushare-app?file=4650971',
+							'_blank'
+						)}>Population Insight Compass</button
+				>
+			</div>
+		</div>
+		<div class="description">
+			<h1>Web Developer Intern <br />@UC Davis</h1>
 			<p>April 2022 - December 2022</p>
 			<ul>
-				<li>Developed continuous improvement projects and enhancements for CEED and TherMOOstat using MERN stack with GraphQL, Next.js and Prisma as a full-stack developer.</li>
-				<li>Identified root causes of software bugs, solved underlying problems, and refactored legacy codes to enhance productivity and readability.</li>
-				<li>Managed time series data stored in the PI system and visualized the data according to the business requirements using React Highcharts.</li>
+				<li>
+					Developed continuous improvement projects and enhancements for <a
+						class="link-text"
+						href="https://ceed.ucdavis.edu"
+						target="_blank">CEED</a
+					>
+					and
+					<a class="link-text" href="https://thermoostat.ucdavis.edu" target="_blank">TherMOOstat</a
+					> using MERN stack with GraphQL, Next.js and Prisma as a full-stack developer.
+				</li>
+				<li>
+					Identified and resolved root cause of data issues, eliminating 20+ open bugs, and
+					prevented future defects by refactoring legacy code for improved stability and
+					readability.
+				</li>
+				<li>
+					Improved data retrieval efficiency and optimized daily energy measurement processing by
+					refining time series data management through strategic indexing, partitioning, and
+					automation.
+				</li>
 			</ul>
 			<div class="button-wrapper">
-				<button on:click|preventDefault={()=>window.open("https://ceed.ucdavis.edu", '_blank')}>Visit CEED</button>
-				<button on:click|preventDefault={()=>window.open("https://thermoostat.ucdavis.edu", '_blank')}>Visit Thermoostat</button>
+				<button on:click|preventDefault={() => window.open('https://ceed.ucdavis.edu', '_blank')}
+					>CEED</button
+				>
+				<button
+					on:click|preventDefault={() => window.open('https://thermoostat.ucdavis.edu', '_blank')}
+					>Thermoostat</button
+				>
 			</div>
 		</div>
 		<div class="description">
-			<h1>Software Engineer Intern <br>@Bucketplace</h1>
+			<h1>Software Engineer Intern <br />@Bucketplace</h1>
 			<p>June 2021 - December 2021</p>
 			<ul>
-				<li>Created promotion pages from scratch using React, Next, and Nest(Node) as a full-stack developer and achieved a 25% increase in GMV, 13.77% increase in user stickiness, and 6.10% increase in pur- chase conversion rate.</li>
-				<li>Optimized server calls to handle large traffic by caching the API calls, optimizing DB queries and using appropriate data structures and techniques.</li>
-				<li>Implemented custom decorators and interceptors to improve reusability and scalability and a DLQ for edge cases to make the application more resilient and durable.</li>
-				<li>Contributed to the gRPC CLI with Golang, which is used company-wide to improve the efficiency of the MSA integration.</li>
+				<li>
+					Created promotion pages using React.js, Next.js, and Nest(Node).js and achieved a 25%
+					increase in gross merchandise value, 13.77% increase in user stickiness, and 6.10%
+					increase in purchase conversion rate.
+				</li>
+				<li>
+					Optimized server calls to handle peak traffic during promotion openings by caching the API
+					calls, optimizing database queries, and implementing decorators and interceptors, and a
+					Dead Letter Queue to enhance reusuability, scalability, and resilience.
+				</li>
+				<li>
+					Contributed to the development of a company-wide gRPC command-line interface (CLI) in
+					Golang as part of the platform team, enhancing overall developer efficiency and
+					streamlining microservice implementation.
+				</li>
 			</ul>
 			<div class="button-wrapper">
-				<button on:click|preventDefault={()=>window.open("https://www.bucketplace.com/en", '_blank')}>Visit the company website</button>
+				<button
+					on:click|preventDefault={() => window.open('https://www.bucketplace.com/en', '_blank')}
+					>Bucketplace</button
+				>
 			</div>
 		</div>
 		<div class="description">
-			<h1>Data Intern <br>@Hyosung ITX</h1>
+			<h1>Data Intern <br />@Hyosung ITX</h1>
 			<p>August 2020 - December 2020</p>
 			<ul>
-				<li>Optimized the data maintenance tool by automating the data inspection process with Python andachieved higher data accuracy from 91% to 99% and a 2400% faster working time.</li>
-				<li>Provided data maintenance support for the public data portal, ’https://www.data.go.kr’.</li>
+				<li>
+					Optimized the data maintenance tool by automating the data inspection process with Python
+					andachieved higher data accuracy from 91% to 99% and a 2400% faster working time.
+				</li>
+				<li>
+					Provided data maintenance support for the <a
+						class="link-text"
+						href="https://www.data.go.kr"
+						target="_blank">public data portal</a
+					>.
+				</li>
 			</ul>
 			<div class="button-wrapper">
-				<button on:click|preventDefault={()=>window.open("https://www.data.go.kr", '_blank')}>Visit the data portal</button>
+				<button on:click|preventDefault={() => window.open('https://www.data.go.kr', '_blank')}
+					>Public Data Portal</button
+				>
 			</div>
 		</div>
 	</div>
 </div>
-
 
 <style>
 	.intro-text {
@@ -59,8 +136,9 @@
 		text-decoration: underline;
 	}
 	.experience-list {
-    display: flex;
-  }
+		display: flex;
+		flex-wrap: wrap;
+	}
 
 	.experience-wrapper {
 		display: flex;
@@ -73,7 +151,7 @@
 	.description {
 		font-family: 'Raleway', sans-serif;
 		color: lightgrey;
-		width: 32%;
+		flex: 0 0 30%;
 		margin: 0 1%;
 	}
 
@@ -108,7 +186,7 @@
 	h1 {
 		font-weight: bold;
 		color: var(--color-theme-1);
-		font-size: 2em
+		font-size: 2em;
 	}
 
 	ul {
@@ -119,6 +197,11 @@
 		margin: 10px 0;
 		color: white;
 		line-height: 1.5em;
+	}
+
+	.link-text {
+		color: var(--color-theme-1);
+		font-style: italic;
 	}
 
 	@media only screen and (max-width: 1200px) {
@@ -160,4 +243,3 @@
 		}
 	}
 </style>
-

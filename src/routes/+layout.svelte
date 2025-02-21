@@ -1,9 +1,7 @@
 <script>
 	import Header from './Header.svelte';
 	import './styles.css';
-
 </script>
-
 
 <div class="app">
 	<Header />
@@ -13,7 +11,7 @@
 	</main>
 
 	<footer>
-		<p>My name is Hyunjin(Alice) Chang - <a href="/contact">Contact me!</a></p>
+		<p>Hey, I’m Hyunjin(Alice) Chang - <a href="/contact">Let’s connect!</a></p>
 	</footer>
 </div>
 
